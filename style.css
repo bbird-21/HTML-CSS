@@ -1,8 +1,52 @@
-.intro {
-	color:blue;
+.important {
+	color: #A5B4FC;
 }
 
-.pro {
-	font-size: 30px;
-	color:red;
+
+body {
+	background-color:#1F2039;
+	font-family: 'Manrope', sans-serif;
+	font-size: 1em;
+}
+
+a {
+	font-style: normal;
+	font-size: 1em;
+	font-family: 'Manrope', sans-serif;
+	text-decoration: none;
+	color:black;
+}
+
+em {
+	color: #a5b4fc;
+	font-style: normal;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5em;
+	text-align: center;
+	color: #A5B4FC;
+}
+
+h2 {
+	color:#F9F8FF;
+}
+
+p,
+li {
+	font-size: 1em;
+	color:#F9F8FF;
+}
+
+.header,
+.footer {
+	background-color:white;
+	color:#242424;
+
+}
+
+.cta {
+	background: linear-gradient(90deg, #8E86B5, #ACAEED);
+	color:white;
 }

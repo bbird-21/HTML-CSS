@@ -25,7 +25,6 @@ em {
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 3.5em;
-	text-align: center;
 	color: #A5B4FC;
 }
 
@@ -35,20 +34,22 @@ h2 {
 
 p,
 li {
-	font-size: 1em;
+	font-size: 1.1em;
 	color:#F9F8FF;
 }
 
-.header,
-.footer {
+header,
+footer {
+	padding: 20px 50px;
 	background-color:white;
-	color:#242424;
+	/* color:#242424; */
 
 }
 
 .cta {
-	padding-left: 1%;
-	padding-right: 1%;
+	padding:15px;
+	/* padding-left: 1%;
+	padding-right: 1%; */
 	border-radius: 50px;
 	background: linear-gradient(90deg, #8E86B5, #ACAEED);
 	color:white;
@@ -58,10 +59,10 @@ li {
 	background:linear-gradient(#696484, #8788BA);
 }
 
-.RobbieLens {
-	border-bottom: 1px solid;
-	border-right: 1px solid;
+main {
 	border-color: #8e86b5;
+	/* margin:50px;
+	padding:50px; */
 }
 
 a:hover {
@@ -75,4 +76,28 @@ a:focus {
 
 .icon_link:hover {
 	opacity:0.5;
+}
+
+section {
+	padding:80px;
+}
+
+.carre_contenu {
+	border-right: 1px solid #8e86b5;
+	border-bottom: 1px solid #8e86b5;
+	padding: 50px;
+	/* margin: 50px; */
+}
+
+.carre_contenu h2 {
+	margin-top: 30px;
+}
+
+.carre_contenu ul {
+	margin-top: 30px;
+}
+
+.a-propos-main {
+	width: 50%;
+	margin: auto;
 }
